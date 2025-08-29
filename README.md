@@ -1,53 +1,28 @@
-# C Crash Course for Embedded Development
+# EEE158 Crash Course in C Programming
 
-Welcome! This crash course will help you quickly get up to speed with C programming fundamentals, focusing on topics essential for embedded systems. You already know C++ and Python, so we'll highlight differences and C-specific features.
+Welcome to the C Crash Course! This repository is designed for college students transitioning to C, with a focus on embedded development. The course is split into two modules:
 
-## Course Outline
+## Modules
 
-1. **Variables and Data Types** (`variables.c`)
-2. **Functions and Scope** (`functions.c`)
-3. **Standard Libraries** (`libraries.c`)
-4. **Pointers** (`pointers.c`)
-5. **Structs and Typedef** (`structs.c`)
-6. **Input/Output** (`io.c`)
-7. **Arrays and Strings** (`arrays.c`)
+- **C101**: Fundamentals of C Programming
+- **C102**: Advanced C Concepts for Embedded Development
+
+Each module contains a README and example `.c` files with explanations and exercises.
 
 ---
 
-## 1. Variables and Data Types
-- Learn about primitive types: `int`, `float`, `char`, etc.
-- Understand variable declaration and initialization.
-- Exercise: Declare and print different types of variables.
+### Getting Started
 
-## 2. Functions and Scope
-- Function declaration, definition, and calling.
-- Scope of variables (local vs global).
-- Exercise: Write a function to add two numbers.
-
-## 3. Standard Libraries
-- Using `#include` to access standard functions.
-- Common libraries: `stdio.h`, `stdlib.h`, `math.h`.
-- Exercise: Use `math.h` to calculate square roots.
-
-## 4. Pointers
-- What are pointers and why are they important in C?
-- Declaring, assigning, and dereferencing pointers.
-- Exercise: Swap two variables using pointers.
-
-## 5. Structs and Typedef
-- Defining and using structs.
-- Using `typedef` for custom types.
-- Exercise: Create a struct for a student and print its fields.
-
-## 6. Input/Output
-- Using `printf` and `scanf` for console I/O.
-- Exercise: Read a number from the user and print its square.
-
-## 7. Arrays and Strings
-- Declaring and using arrays.
-- Working with strings (character arrays).
-- Exercise: Reverse a string.
+1. Begin with the `C101` folder to learn C basics.
+2. Move on to `C102` for advanced topics relevant to embedded systems.
 
 ---
 
-Each section has a corresponding `.c` file with code snippets and exercises. Start with `variables.c` and work your way through. Happy coding!
+### Folder Structure
+
+- `C101/`: Variables, functions, libraries, pointers, structs, I/O, arrays
+- `C102/`: Bit manipulation, memory management, interrupts, preprocessor, embedded I/O, state machines, modular programming
+
+---
+
+For details and exercises, see the README in each module folder.
